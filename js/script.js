@@ -6,6 +6,12 @@ const thumbnail = document.querySelector(".thumbnail")
 const hapus = document.querySelector(".hapus")
 const about = document.querySelector('.about')
 const destinasi = document.querySelector('.destinasi')
+const desh2 = document.querySelector('.destinasi h2')
+// ? membuat efek tulisan destinasi 2
+const hurufH2 = [...desh2.textContent].map(a => `<span>${a}</span>`).join('')
+desh2.innerHTML = hurufH2
+//? tutup destinasi 2
+console.log(desh2);
 // ? membuat lketika di klik memunxulkan menu about di sebelah kanan gambar
 const { bromo, borobudur } = {
     bromo:/*html*/`<div class="tentang">

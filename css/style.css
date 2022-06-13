@@ -50,23 +50,12 @@
     color: black;
 }
 
-.imgContent {
-    width: 800px;
-    height: 400px;
-    margin: 0px auto;
+
+.fotoUtama {
+    margin-left: 18px;
+    box-shadow: 0px 0px 20px black;
 }
 
-.imgPilihan {
-    width: 200px;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-.imgPIlih {
-    width: 800px;
-    display: flex;
-    cursor: pointer;
-}
 
 /* gambar */
 
@@ -101,19 +90,28 @@
     text-align: center;
 }
 
+.about p a {
+    color: rgb(56, 8, 8);
+}
+
+.about p a:hover {
+    color: rgb(250, 3, 3);
+}
+
 .tentang {
     margin-top: 20px;
     width: 200px;
     height: 200px;
     background-color: rgb(230, 92, 76);
     box-shadow: 0px 10px 10px black;
-    cursor: pointer;
+    cursor: default;
 }
 
 .perjalanan {
     width: 300px;
     height: 300px;
     margin-left: 20px;
+
 }
 
 .destinasi {
@@ -121,7 +119,7 @@
     height: 150px;
     background-color: rgb(99, 38, 211);
     margin-top: 50px;
-    cursor: pointer;
+    cursor: default;
     box-shadow: 8px 8px 10px black;
 }
 
@@ -133,6 +131,17 @@
     text-shadow: 0px 8px 3px black;
 
 }
+
+.destinasi span {
+    display: inline-block;
+    transition: 1s;
+}
+
+.destinasi span:hover {
+    transform: scale(2);
+    color: brown;
+}
+
 
 .destinasi p {
     font-size: 15px;
@@ -155,6 +164,7 @@
     display: flex;
     width: 600px;
     flex-wrap: wrap;
+    box-shadow: -10px 10px 19px black;
 }
 
 .thumb:hover {
