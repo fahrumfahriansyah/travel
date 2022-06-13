@@ -1,0 +1,171 @@
+.bgcjudul {
+    background-color: hsl(6, 69%, 79%);
+    height: 30px;
+    width: 200px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.judul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: -5px auto;
+    font-size: 25px;
+}
+
+.bgcjudul h1 {
+    text-shadow: -3px -4px 3px rgb(197, 83, 83);
+    font-weight: bold;
+    padding: auto;
+    cursor: none;
+}
+
+.bgcinav {
+    width: 300px;
+    background-color: rgb(6, 121, 216);
+    margin-left: 40px;
+    box-shadow: 5px 5px 10px rgb(43, 104, 202);
+    text-align: center;
+
+}
+
+.inav {
+    text-align: center;
+    margin: 0px 5px;
+    transition: 1s;
+}
+
+.inav:hover {
+    font-size: 15px;
+    color: red;
+}
+
+.inavhome {
+    margin-left: 45px;
+}
+
+.navSrc {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.imgContent {
+    width: 800px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+.imgPilihan {
+    width: 200px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.imgPIlih {
+    width: 800px;
+    display: flex;
+    cursor: pointer;
+}
+
+/* gambar */
+
+.container foto {
+    flex: 15;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    line-height: 0;
+    display: flex;
+
+}
+
+.about {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.about h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+}
+
+
+.about p {
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.tentang {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(230, 92, 76);
+    box-shadow: 0px 10px 10px black;
+    cursor: pointer;
+}
+
+.perjalanan {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.destinasi {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(99, 38, 211);
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 8px 8px 10px black;
+}
+
+
+.destinasi h2 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+    text-shadow: 0px 8px 3px black;
+
+}
+
+.destinasi p {
+    font-size: 15px;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: -1px 0px 1px whitesmoke;
+}
+
+.thumb {
+    width: 145px;
+    height: 100px;
+    border: 1px solid white;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.thumbnail {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.thumb:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.jumbo {
+    width: 600px;
+    height: 300px;
+    border-bottom: 1px solid black;
+    position: relative;
+    cursor: pointer;
+}
